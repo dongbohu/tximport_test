@@ -1,6 +1,6 @@
 # tximport_test
 
-This repo includes a test case of tximport. Input files are generated based on:
+This repo includes a test case of **tximport**. Input files are generated based on:
 https://github.com/jaclyn-taroni/ref-txome/
 
 They include `quant.sf` of 6 samples in experiment `PRJNA408323`:
@@ -14,6 +14,14 @@ They include `quant.sf` of 6 samples in experiment `PRJNA408323`:
 and genes-to-transcript mapping file:
 - np_gene2txmap.txt: genes-to-transcript mapping file
 
-The expected output files are located in `expected_output` directory.
+Two expected output files are located in `expected_output` directory.
 - txi_out.RDS: RDS of tximport output
 - gene_lengthScaledTPM.tsv: length-scaled TPM (transcripts per million) file
+
+To run the test, type:
+```
+Rscript tximport.R ----exp_dir PRJNA408323 --gene2txmap np_gene2txmap.txt
+```
+The two output files will be saved as:
+- PRJNA408323/txi_out.RDS
+- PRJNA408323/gene_lengthScaledTPM.tsv
