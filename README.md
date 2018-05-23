@@ -11,8 +11,8 @@ They include `quant.sf` of 6 samples in `PRJNA408323` directory:
 - SRR6080013/quant.sf
 - SRR6080014/quant.sf
 
-and genes-to-transcript mapping file:
-- np_gene2txmap.txt (genes-to-transcript mapping file)
+and a genes-to-transcript mapping file:
+- np_gene2txmap.txt
 
 To run the test, type:
 ```
