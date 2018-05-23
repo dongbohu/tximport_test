@@ -18,8 +18,8 @@ To run the test, type:
 ```
 Rscript tximport.R --exp_dir PRJNA408323 --gene2txmap np_gene2txmap.txt
 ```
-The two output files will be saved as:
-- PRJNA408323/txi_out.RDS
-- PRJNA408323/gene_lengthScaledTPM.tsv
+which will generate two output files in `PRJNA408323` directory:
+- txi_out.RDS: RDS of tximport output
+- gene_lengthScaledTPM.tsv: length-scaled TPM (Transcripts Per Million) file
 
 You can compare them with the two in `expected_output` directory.
