@@ -4,15 +4,15 @@ This repo includes a test case of **tximport**. Input files are generated based 
 https://github.com/jaclyn-taroni/ref-txome/
 
 They include `quant.sf` of 6 samples in `PRJNA408323` directory:
-- *SRR6080007/quant.sf*
-- *SRR6080008/quant.sf*
-- *SRR6080009/quant.sf*
-- *SRR6080012/quant.sf*
-- *SRR6080013/quant.sf*
-- *SRR6080014/quant.sf*
+- SRR6080007/quant.sf
+- SRR6080008/quant.sf
+- SRR6080009/quant.sf
+- SRR6080012/quant.sf
+- SRR6080013/quant.sf
+- SRR6080014/quant.sf
 
 and genes-to-transcript mapping file:
-- *np_gene2txmap.txt*: genes-to-transcript mapping file
+- np_gene2txmap.txt (genes-to-transcript mapping file)
 
 To run the test, type:
 ```
