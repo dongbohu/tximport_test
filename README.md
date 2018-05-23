@@ -1,6 +1,6 @@
 # tximport_test
 
-This repo includes a test case of **tximport**. Input files are generated based on:
+This repo includes a test case of **tximport**. Input files are based on:
 https://github.com/jaclyn-taroni/ref-txome/
 
 They include `quant.sf` of 6 samples in `PRJNA408323` directory:
