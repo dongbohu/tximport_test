@@ -20,7 +20,7 @@ Rscript tximport.R --exp_dir PRJNA408323 --gene2txmap np_gene2txmap.txt
 ```
 which will generate two output files in `PRJNA408323` directory:
 - **txi_out.RDS**: RDS of tximport output
-- **gene_lengthScaledTPM.tsv**: length-scaled TPM (Transcripts Per Million) file
+- **gene_lengthScaledTPM.tsv.gz**: gzipped length-scaled TPM (Transcripts Per Million) file
 
 You can compare them with the two in `expected_output` directory.
 
